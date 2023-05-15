@@ -5,9 +5,9 @@
 ## 🚀 About Me
 Jeg er web 3.0 udvikler. 
 
-Haskell er mit favorit programmeringssprog, primært fordi det er muligt matematisk at bevise at programmet er validt, da der fx ikke bliver brugt globale variable og loops. En tildelt værdi til en variabel kan aldrig ændres.
+Haskell er mit favorit programmeringssprog, primært fordi det er muligt matematisk, igennem formel verifikation, at bevise at programmet er validt. Da Haskell er bygget op, så der ikke bliver brugt globale variable og loops og en variabels værdi aldrig vil kunne ændres når først en værdi er blevet tildelt.
 
-I modsætning til objekt orienterede sprog, hvor det som bekendt kun er muligt at teste og ikke bevise at programmet opfører sig korrekt i enhver situation. Der vil derfor altid være en risiko for fejl uanset hvor meget der bliver testet.
+I modsætning til objektorienterede sprog, hvor det som bekendt kun er muligt at teste validiteten, men ikke endegyldigt at bevise at programmet vil opføre sig korrekt i enhver situation. Der vil derfor altid være en risiko for at der kan ske uforudsette ting, når et givent input er til stede og det fejl uanset hvor meget der er blevet testet.
 
 Eksempelvis hvor der bliver benyttet en global variabel, som bliver tilgået af forskellige threads, der hver i sig er istand til at ændre state. Ud og se med DSB:)
 
